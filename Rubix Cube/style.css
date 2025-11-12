@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    background-color: #fff; /* empty squares */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+  display: inline-block;
+}

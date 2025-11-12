@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Rubix Cube</title>
+</head>
+
+<body>
+    <button id="scramble">Scramble</button>
+    <button id="solve">Solve</button>
+
+    
+<div class="cube">
+  <!-- Grid 1 -->
+  <div class="row">
+    <table id="U">
+      <tbody>
+        <tr><td data-cell="7"></td><td data-cell="8"></td><td data-cell="9"></td></tr>
+        <tr><td data-cell="4"></td><td data-cell="5"></td><td data-cell="6"></td></tr>
+        <tr><td data-cell="1"></td><td data-cell="2"></td><td data-cell="3"></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!--  Grids 2,3,4 -->
+  <div class="row">
+    <table id="L">
+      <tbody>
+        <tr><td data-cell="7"></td><td data-cell="4"></td><td data-cell="1"></td></tr>
+        <tr><td data-cell="8"></td><td data-cell="5"></td><td data-cell="2"></td></tr>
+        <tr><td data-cell="9"></td><td data-cell="6"></td><td data-cell="3"></td></tr>
+      </tbody>
+    </table>
+    <table id="F">
+      <tbody>
+        <tr><td data-cell="1"></td><td data-cell="2"></td><td data-cell="3"></td></tr>
+        <tr><td data-cell="4"></td><td data-cell="5"></td><td data-cell="6"></td></tr>
+        <tr><td data-cell="7"></td><td data-cell="8"></td><td data-cell="9"></td></tr>
+      </tbody>
+    </table>
+    <table id="R">
+      <tbody>
+        <tr><td data-cell="1"></td><td data-cell="4"></td><td data-cell="7"></td></tr>
+        <tr><td data-cell="2"></td><td data-cell="5"></td><td data-cell="8"></td></tr>
+        <tr><td data-cell="3"></td><td data-cell="6"></td><td data-cell="9"></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Grid 5 -->
+  <div class="row">
+    <table id="D">
+      <tbody>
+        <tr><td data-cell="1"></td><td data-cell="2"></td><td data-cell="3"></td></tr>
+        <tr><td data-cell="4"></td><td data-cell="5"></td><td data-cell="6"></td></tr>
+        <tr><td data-cell="7"></td><td data-cell="8"></td><td data-cell="9"></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Grid 6 -->
+  <div class="row">
+    <table id="B">
+      <tbody>
+        <tr><td data-cell="7"></td><td data-cell="8"></td><td data-cell="9"></td></tr>
+        <tr><td data-cell="4"></td><td data-cell="5"></td><td data-cell="6"></td></tr>
+        <tr><td data-cell="1"></td><td data-cell="2"></td><td data-cell="3"></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
